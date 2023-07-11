@@ -1,0 +1,17 @@
+{
+  "extends": "./node_modules/gts/tsconfig-google.json",
+  "compilerOptions": {
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "rootDir": ".",
+    "outDir": "build",
+    "strict": false,
+    "sourceMap": true,
+    "typeRoots": ["node_modules/@types", "src/@types"],
+    "baseUrl": "src"
+  },
+  "include": ["src/**/*.ts"],
+  "ts-node": {
+    "swc": true
+  }
+}
