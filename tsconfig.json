@@ -8,7 +8,8 @@
     "strict": false,
     "sourceMap": true,
     "typeRoots": ["node_modules/@types", "src/@types"],
-    "baseUrl": "src"
+    "baseUrl": "src",
+    "allowSyntheticDefaultImports": true
   },
   "include": ["src/**/*.ts"],
   "ts-node": {
